@@ -2,7 +2,7 @@
 pipeline{
     agent any
     tools{
-        maven 
+        tool name: '', type: 'maven'
     }
     stages{
         stage("Create Folder"){
